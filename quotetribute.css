@@ -1,0 +1,41 @@
+.quoteslideshow-container {
+    max-width: 40%;
+    position: relative;
+    margin: 5% auto 5% auto;
+  }
+.quotemySlides {
+    display: none;
+}
+/* Fading + slide in animation */
+.slideinfromleft {
+    animation: slideinfromleft 1.5s ease-in 0s 1 normal forwards;
+}
+
+.image{
+    transition: border,border-radius 1s linear;
+}
+.image:hover{
+    border-radius: 20%;
+    border: 2px solid black
+}
+
+@keyframes slideinfromleft {
+    0%{
+        -webkit-transform:translateX(-100%);
+        -moz-transform:translateX(-100%);
+        -o-transform:translateX(-100%);
+        -ms-transform:translateX(-100%);
+        opacity: 0.1;
+    }
+    50%{
+        opacity: .5
+    }
+    100%{
+        -webkit-transform:translateX(0);
+        -moz-transform:translateX(0);
+        -o-transform:translateX(0);
+        -ms-transform:translateX(0);
+        opacity: 1
+    }
+}
+  
