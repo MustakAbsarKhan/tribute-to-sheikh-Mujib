@@ -69,7 +69,7 @@ function showSlides() {
   setTimeout(showSlides, 6000); // Change image every 3 seconds
 }
 
-//Qote slider
+//Quote slider
 
 let quoteslideIndex = 0;
 let quoteslides = document.getElementsByClassName("mySlides");
