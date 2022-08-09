@@ -28,7 +28,7 @@ qshowSlides();
 //all slide functions running here
 function qshowSlides() {
     qautoslideRun();
-    timeoutHolder = setTimeout(qshowSlides, 10000); // Change image every 10 seconds
+    timeoutHolder = setTimeout(qshowSlides, 6000); // Change image every 10 seconds
 }
 
 //freezing slider on hover
@@ -39,7 +39,7 @@ const disableAutoSlideOnHover = () => {
     timeoutHolder = null;
   } );
   container.addEventListener( "mouseleave", function() {
-    setTimeout( () => qshowSlides(), 10000 )
+    setTimeout( () => qshowSlides(), 6000 )
   } );
 }
 disableAutoSlideOnHover();

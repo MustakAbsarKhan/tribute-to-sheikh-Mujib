@@ -137,6 +137,6 @@ quoteshowSlides();
 //all slide functions running here
 function quoteshowSlides() {
     quoteautoslideRun();
-  setTimeout(quoteshowSlides, 6000); // Change image every 3 seconds
+  setTimeout(quoteshowSlides, 6000); // Change image every 6 seconds
 }
 
