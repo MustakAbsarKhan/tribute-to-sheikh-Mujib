@@ -16,7 +16,7 @@
 }
 .image:hover{
     border-radius: 20%;
-    border: 2px solid black
+    border: 0.125em solid black
 }
 
 @keyframes slideinfromleft {
